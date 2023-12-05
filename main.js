@@ -40,8 +40,3 @@ ScrollReveal().reveal(".projects__card", {
 // banner container
 ScrollReveal().reveal(".banner__content", scrollRevealOption);
 
-// blogs container
-ScrollReveal().reveal(".blogs__card", {
-  ...scrollRevealOption,
-  interval: 500,
-});
