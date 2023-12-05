@@ -341,52 +341,6 @@ nav {
   color: var(--white);
 }
 
-.blogs__grid {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.blogs__card {
-  overflow: hidden;
-  border: 2px solid var(--extra-light);
-  border-radius: 10px;
-}
-
-.blogs__content {
-  padding: 1rem;
-}
-
-.blogs__content h5 {
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--secondary-color);
-}
-
-.blogs__content h4 {
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-  font-family: var(--header-font);
-  color: var(--text-dark);
-}
-
-.blogs__content p {
-  margin-bottom: 1rem;
-  color: var(--text-light);
-}
-
-.blogs__content a {
-  font-size: 0.9rem;
-  color: var(--text-light);
-}
-
-.blogs__content a:hover {
-  color: var(--secondary-color);
-}
-
 .footer {
   background-color: var(--primary-color);
 }
