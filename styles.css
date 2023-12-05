@@ -475,11 +475,6 @@ nav {
     content: none;
   }
 
-  .blogs__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-  }
-
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 4rem;
@@ -501,10 +496,6 @@ nav {
 
   .projects__card:nth-child(even) {
     transform: translateY(0);
-  }
-
-  .blogs__grid {
-    grid-template-columns: repeat(1, 1fr);
   }
 
   .footer__container {
